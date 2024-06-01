@@ -1,0 +1,43 @@
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Documentation for Zen Cart Stripe Payment Module"
+theme = "theme-learn"
+##themesdir = "../.."
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+editURL = "https://github.com/zcwilt/stripe-pay-docs/tree/master/content/"
+description = "Documentation for Zen Cart Stripe Payment Module"
+author = "Ian Wilson"
+showVisitedLinks = true
+disableBreadcrumb = false
+disableNextPrev = false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "Documentation for Zen Cart Stripe Payment Module"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Zen Cart Stripe Code repo"
+identifier = "gcr"
+url = "https://github.com/zcwilt/stripe-pay"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Zen Cart Stripe Documentation repo"
+identifier = "gdr"
+url = "https://github.com/zxwilt/stripe-pay-docs"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 30
