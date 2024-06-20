@@ -33,7 +33,7 @@ weight = 10
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> Zen Cart Stripe Documentation repo"
 identifier = "gdr"
-url = "https://github.com/zxwilt/stripe-pay-docs"
+url = "https://github.com/zcwilt/stripe-pay-docs"
 weight = 20
 
 [[Languages.en.menu.shortcuts]]
